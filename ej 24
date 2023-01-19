@@ -1,0 +1,28 @@
+let nombre='Florencia';
+let apellido='Vysin';
+
+let estudiante=nombre+" "+apellido
+console.log(estudiante)
+
+
+let estudianteMayus="";
+console.log(estudiante.toUpperCase());
+
+
+let estudianteMinus="";
+console.log(estudiante.toLowerCase());
+
+let numLetras='estudiante';
+console.log(numLetras.length);
+
+let primerLetra=nombre;
+console.log(primerLetra.charAt(0));
+
+let ultimaLetra=apellido;
+console.log(ultimaLetra.charAt(4));
+
+let eliminarEsp=estudiante;
+console.log(eliminarEsp.trim().length);
+
+let palabra=estudiante;
+console.log(palabra.includes("Florencia"));
